@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Addcustomer from './components/Addcustomer/Addcustomer';
-
 import UserProfile from './components/profile/UserProfile';
 import EditProfile from "./components/Edit/EditProfile";
 import AddFood from './components/Addfood/AddFood';
@@ -19,7 +18,7 @@ import Total from './components/AddCart/Total';
 import AboutUs from './components/AboutUs/AboutUs';
 import MapRoute from './components/map/map';
 import DisplayCart from './components/AddCart/DisplayCart';
-
+import Payment from './components/payment/payment';
 import AllContactUs from './components/Contact Us/AllContactUs';
 import Homee from './components/Homee/Home';
 import SnowEffect from './components/SnowEffect';
@@ -51,7 +50,7 @@ function App() {
           <Route path="/edit/:id" element={<EditFood/>} />
           <Route path="/fetchc" element={<AllCustomer/>} />
           <Route path="/searchByNIC/:nic" element={<ViewCus/>} />
-       
+          <Route path="/payment/:nic/:cartItemId" element={<Payment />} />
           <Route path="/addItem/:nic/:foodId" element={<AddCart/>} />
           <Route path="/addItem/:nic/:foodId" element={<Total/>} />
           <Route path="/totalPrice/:nic/:cartItemId" element={<Total />} />
