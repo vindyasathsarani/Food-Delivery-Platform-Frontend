@@ -1,0 +1,102 @@
+/* Base styles */
+.View {
+    display: flex;
+}
+
+.Vleft {
+    flex: 4;
+}
+
+.food-image {
+    width: 100%; /* Adjust image width to 100% of parent */
+    height: auto; /* Let the height adjust proportionally */
+    padding-top: 20px;
+    padding-left:20px;
+    margin-top:70px;
+}
+
+.Vcenter {
+    flex: 3;
+}
+
+.fName {
+    font-size: 3vw; /* Adjust font size relative to viewport width */
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.price, .Des {
+    font-size: 1.5vw; /* Adjust font size relative to viewport width */
+    color: #333;
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 2px;
+}
+
+.Vright {
+    flex: 4;
+    background-color: #ffffff;
+}
+
+.place-container {
+    display: flex;
+    align-items: center;
+}
+
+.place-icon {
+    margin-right: 5px;
+}
+
+.Address {
+    font-size: 1.5vw; /* Adjust font size relative to viewport width */
+    color: #d42d2d;
+    margin-top: 10px;
+}
+
+.fbttn {
+    padding: 1vw 2vw; /* Adjust padding relative to viewport width */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.7vw; /* Adjust font size relative to viewport width */
+}
+
+.Vright .add2 {
+    width: 2vw; /* Adjust width relative to viewport width */
+    height: auto; /* Let the height adjust proportionally */
+    padding-top: 2vw; /* Adjust padding relative to viewport width */
+    padding-right: 2vw; /* Adjust padding relative to viewport width */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .View {
+        flex-direction: column; /* Change layout to column for smaller screens */
+    }
+
+    .Vleft, .Vcenter, .Vright {
+        flex: auto; /* Allow each section to take up full width */
+    }
+
+    .fName, .price, .Des, .Address, .fbttn {
+        font-size: 4vw; /* Adjust font size for smaller screens */
+    }
+
+    .food-image {
+        width: 100%; /* Adjust image width to 100% of parent */
+        height: auto; /* Let the height adjust proportionally */
+        padding-top: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .Vright .add2 {
+        width: 4vw; /* Adjust width relative to viewport width */
+        height: auto; /* Let the height adjust proportionally */
+        padding-top: 1vw; /* Adjust padding relative to viewport width */
+        padding-right: 1vw; /* Adjust padding relative to viewport width */
+    }
+}

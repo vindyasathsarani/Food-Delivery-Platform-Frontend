@@ -1,0 +1,40 @@
+.all-contact-us-container {
+   
+   
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  .contact-table th, .contact-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .contact-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .contact-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .contact-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  

@@ -1,0 +1,95 @@
+.container5 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .frame {
+    border: 1px solid #ccc;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+  }
+  
+  .image-container {
+    padding: 20px;
+  }
+  
+  .image-container img {
+    max-width: 200px;
+  }
+  
+  .form-container {
+    padding: 20px;
+  }
+  
+  .form-container form {
+    width: 300px;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-container input,
+  .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+ 
+  .btn1 {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between buttons */
+    background-color: #0f118a; /* Blue background color */
+    color: #fefefe; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn2 {
+    display: inline-block;
+    background-color: #cd102d; /* Red background color */
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn1:hover {
+    background-color: #0056b3; /* Darker blue background color on hover */
+  }
+  
+  .btn2:hover {
+    background-color: #741616; /* Darker red background color on hover */
+  }
+  
+  
+  
+  
+.edit label{
+    width: 95%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+    text-align: left;
+    
+}
+
+.edit input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 2px solid rgb(16, 2, 2);
+    padding: 0 10px;
+}

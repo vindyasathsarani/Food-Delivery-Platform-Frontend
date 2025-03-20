@@ -1,0 +1,118 @@
+
+
+.head{
+
+  font-size: 100px;
+  margin-top: -1.5%;
+  font-family: "sans-serif";
+  color:#050505;
+  margin-inline: 25%;
+  display: flex;
+  padding-top: 3%;
+  justify-content: left;
+}
+
+
+.container4 {
+  
+  background-color: #ebdbd5;
+  background-size: cover;
+  background-position: left;
+  min-height: 120vh;
+  align-items: left;
+}
+
+
+
+
+.form {
+  top: 29%;
+  left: 10%;
+  position: absolute;
+  width:700px;
+  height: 500px ;
+  border-radius: 10px;
+  padding:0em 3em;
+  border: 5px solid #110101;
+  border-radius: 1px;
+  background-color: #E1E1E1;
+  backdrop-filter: blur(2px);
+  color: #545454;
+  font-size: 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  transform: translateY(-0.2%);
+  margin-top: 40px;
+  margin-left: -70px;
+  
+}
+
+.input{
+width: 500px;
+ background-color:#ACACAC5C;
+ font-size: 20px;
+ color:  #545454;
+ border-radius: 10px;
+ border-color: #ACACAC5C;
+}
+
+.textarea{
+  color:  #545454;
+ line-height:200px;
+}
+.error-message {
+  color: rgb(98, 27, 45);
+  margin-top: 1px;
+}
+
+.Submit-button {
+  background-color: #FF8644;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 12px 30px;
+  margin-top: 90px;
+  margin-left:28%;
+  margin-right:25% ;
+  align-items: center;
+  transform: translateY(40%);
+ 
+}
+
+.message img{
+  height:75px;
+  width: auto;
+  position: absolute;
+  top: 80%;
+  left:85%;
+}
+
+.phone img{
+  height:75px;
+  width: auto;
+  position: absolute;
+  top: 80%;
+  right: 85%;
+}
+
+.image1{
+  position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image1 img{
+  height: 500px;
+  width: auto;
+  border-radius: 50%;
+  position: absolute;
+  top: 150px;
+  right: 60px;
+  transform: translateY(-30%);
+}
+
+.loading {
+  font-weight: bold;
+  margin-top: 10px;
+}

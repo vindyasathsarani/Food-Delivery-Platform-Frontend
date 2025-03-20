@@ -1,0 +1,31 @@
+/* styles.css */
+
+.rounded-search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 5px 15px; /* Adjust the padding as needed */
+    margin-left: 100px; /* Push the search bar to the right corner */
+    height: 40px; /* Adjust the height as needed */
+    border: 1px solid black;
+    width: 350px;
+    
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    
+  }
+  
+  .rounded-search-bar input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 20px;
+    width: 40px;
+  }
+  

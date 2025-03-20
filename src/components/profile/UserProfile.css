@@ -1,0 +1,120 @@
+.main {
+    height: 100vh; /* Full height of viewport */
+    width: 100vw; /* Full width of viewport */
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.left{
+    flex :3;
+    background-color:rgb(240, 239, 238);
+}
+.right{
+    background-color:rgb(225, 202, 183);
+    flex:5
+}
+
+.profile-image-dhanu {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    border: 1px solid #ccc; /* Add a border */
+    overflow: hidden; /* Ensure the image doesn't overflow the container */
+    display: inline-block; /* Ensure the container doesn't take up the whole width */
+    
+}
+
+.profile-image-dhanu img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Make the image fill the container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+   
+}
+.user-data {
+    width: 100%;
+}
+
+.user-data td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-data td:first-child {
+    width: 150px; /* Adjust width for the first column as needed */
+    font-weight: bold;
+}
+
+.user-data img {
+    max-width: 100px; /* Adjust maximum image width as needed */
+    max-height: 100px; /* Adjust maximum image height as needed */
+    border: 1px solid #ccc;
+    padding-left: 15px;
+}
+.user-data .Heading {
+    width: 150px; /* Adjust width for the heading column as needed */
+    font-weight: bold;
+    text-align: left; /* Align text to the left */
+    padding-right: 2px;
+    margin-left: 1px;
+}
+.user-data .data {
+    text-align: left; /* Align data to the left */
+    padding-left: 15px;
+}
+.user-data .tableRaw {
+    background-color: #f1f1d5; /* Add color for rows with class tableRaw */
+}
+
+.user-data .tableRaw2 {
+    background-color: #e8e6aa; /* Add color for rows with class tableRaw */
+}
+.buttonp {
+    display: flex;
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Align items vertically */
+}
+
+.editbutton,
+.logoutbutton {
+    flex: 1; /* Make both buttons take equal space */
+}
+
+.buttonp button {
+    background-color: #4760ec;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 2px solid #333333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.buttonp button:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.buttonp button svg {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.profileBanner {
+    width: 100%; /* Ensure the image takes up the full width of its container */
+    height: auto; /* Maintain aspect ratio */
+    /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+.paragraph {
+    font-family: Arial, sans-serif; /* Specify the font family */
+    font-size: 18px; /* Set the font size */
+    line-height: 1.5; /* Set the line height for better readability */
+    color: #333333; /* Set the text color */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+

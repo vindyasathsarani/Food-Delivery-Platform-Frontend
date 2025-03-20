@@ -1,0 +1,59 @@
+
+
+
+
+
+  
+.heading_Gayathri h1{
+ font-family:"Irish Grover";
+ font-size: 110px;
+ color: rgb(7, 0, 0);
+ font-weight: 400;
+ line-height: 140.px;
+ width: 477px;
+ height: 140px;
+ margin-inline: 25%;
+ padding: 50px 0;
+ margin-top:-3%;
+}
+
+.heading_Gayathri p{
+    
+  border: 1px solid #000; 
+  border-radius: 10px;
+  background-color: #ffffff;
+  text-align: center;
+  position: absolute;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 33px;
+  width: 750px;
+  height: auto;
+  padding: 30px; 
+  top: 10%; 
+  left: 30%;
+  transform: translate(-50%, 50%); 
+  box-sizing: border-box; 
+
+}
+
+
+
+.container_Gayathri{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_Gayathri img{
+    height: 500px;
+    width: auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    right: 60px;
+    transform: translateY(-50%);
+ }

@@ -1,0 +1,68 @@
+.main {
+    height: 100vh; /* Full height of viewport */
+    width: 100vw; /* Full width of viewport */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.left{
+    flex :5;
+    background-color:rgb(254, 254, 254);
+}
+.right{
+    background-color:rgb(253, 253, 253);
+    flex:5
+}
+
+.savebtn,
+.btndelete {
+  display: flex;
+}
+
+
+.savebtn button {
+    padding: 10px 20px; /* Adjust padding for the save button */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btndelete button {
+    padding: 5px 10px; /* Adjust padding for the delete button */
+    background-color: #dc3545; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+  }
+  
+  .savebtn button:hover,
+  .btndelete button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+
+  .left{
+    padding-top: 2px;
+  }
+  .left .video video {
+    width: 100%; /* Make the video fill the container */
+  }
+  
+  .left .video video::-webkit-media-controls {
+    display: none; /* Hide default media controls */
+  }
+  .photo {
+    width: 750px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .edit {
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

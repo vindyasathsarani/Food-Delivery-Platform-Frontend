@@ -1,0 +1,111 @@
+.food-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    z-index: 1; /* Set a lower z-index for food items */
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-item {
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 10px;
+    background: #fff;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;  /* Ensures button is at the bottom */
+    justify-content: space-between;  /* Flex to distribute content */
+    height: 100%;  /* Allow container to expand and shrink naturally */
+}
+
+.food-item:hover {
+    transform: scale(1.1);
+}
+
+.food-item h3 {
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+
+.food-item p {
+    margin-bottom: 5px;
+}
+
+.food-item img {
+    max-width: 200px; /* Set a maximum width for the image */
+    height: 150px; /* Maintain aspect ratio */
+    border-radius: 5px;
+    margin: 0 auto;
+    z-index: 1; /* Ensure images stay behind the navbar */
+}
+
+.foodname {
+    font-weight: bold;
+    margin-bottom: 1px;
+    z-index: 1; /* Ensure text stays behind the navbar */
+}
+
+.food-price {
+    color: green;
+    margin-bottom: 5px;
+    z-index: 1; /* Ensure text stays behind the navbar */
+}
+
+.food-description {
+    font-style: italic;
+    color: #555;
+    font-size: 14px;
+    z-index: 1; /* Ensure text stays behind the navbar */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .food-list {
+        grid-template-columns: repeat(2, 1fr);  /* 2 columns on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .food-list {
+        grid-template-columns: 1fr;  /* 1 column on mobile */
+    }
+
+    .food-item {
+        padding: 10px; /* Adjust padding on mobile for better fit */
+    }
+
+    .btnAdd {
+        font-size: 14px;  /* Adjust font size */
+        padding: 8px 15px;  /* Adjust padding */
+        width: 100%;  /* Ensure button takes full width */
+        margin-top: auto;  /* Push button to the bottom */
+        margin-bottom: 20px;  /* Add gap between button and bottom */
+    }
+}
+
+.btnAdd {
+    background-color: #d7e5a1; /* Green background */
+    border: none; /* Remove border */
+    color: rgb(0, 0, 0); /* Black text */
+    padding: 10px; /* Padding to make button bigger */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Make it block-level to stretch */
+    font-size: 16px; /* Font size */
+    margin-top: auto; /* Push the button to the bottom */
+    margin-bottom: 20px; /* Add gap between button and bottom */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 0 0 5px 5px; /* Rounded corners on the bottom */
+}

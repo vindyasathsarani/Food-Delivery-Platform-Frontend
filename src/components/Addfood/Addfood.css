@@ -1,0 +1,105 @@
+/* Default styles for section */
+section {
+    position: relative;
+    min-height: 100vh;
+    background-color: var(--lightblue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+  }
+  
+  /* Responsive styles for section */
+  @media (max-width: 768px) {
+    section .container5 {
+      width: 90%; /* Adjust width for smaller screens */
+      height: auto; /* Auto height for smaller screens */
+      max-width: 500px; /* Max width for smaller screens */
+    }
+  }
+  
+  /* Active state styles */
+  section.active {
+    background-color: var(--lightpink);
+  }
+  
+  /* Container styles */
+  section .container5 {
+    position: relative;
+    width: 900px;
+    height: 570px;
+    background-color: white;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex; /* Add this line to make it a flex container */
+  }
+  
+  /* Box styles */
+  section .box {
+    flex: 1; /* Adjust the flex ratio as needed */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  /* Right section styles */
+  section .right {
+    flex: 1; /* Adjust the flex ratio as needed */
+  }
+  
+  /* Right section image styles */
+  section .right img {
+    width: 100%; /* Ensure the image fills its container */
+  }
+  
+  /* Adminlog container styles */
+  .Adminlog {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+  }
+  
+  /* Styles for the button container */
+  .btn {
+    text-align: center; /* Center align the button */
+  }
+  
+  /* Styles for the submit button */
+  .btn button[type="submit"] {
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #eb2243; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover styles for the submit button */
+  .btn button[type="submit"]:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
+  /* Search container styles */
+  .search2 {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+  }
+  .food-input,
+.price-input,
+.description-input,
+.image-input {
+  width: calc(100% - 20px); /* Adjust width as needed */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style for the textarea */
+.description-input {
+  height: 100px; /* Adjust height as needed */
+}
+
+/* Style for the file input */
+.image-input {
+  /* Add specific styles for file input if needed */
+}

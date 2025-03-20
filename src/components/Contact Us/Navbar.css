@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Lily+Script+One');
+
+nav {
+  
+    justify-content: space-between;
+    align-items: center;
+   background-color: #E1E1E1;
+   transform: rotateY(1%);
+   
+    
+  }
+  
+  .logo_img1 img {
+    width: 85px;
+    height: 87px;
+    margin-right: 10px;
+    margin-top: 0.5%;
+    left: 30px;
+    margin-left:4% ;
+    transform: translateY(5%);
+    
+  }
+  
+  .logo-name {
+    margin-left: 2%;
+     font-size: 60px;
+     background:linear-gradient(#FC5200, #FFB30E);
+     font-family: "Lily Script One";
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+  }
+
+  .search{
+   padding-bottom:1%;
+   
+  }
+
+  .search input{
+    transition: background 0.25s;
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 38%;
+    left:355%;
+    margin: top 1px;;
+    font-size: larger;
+    text-align: center;
+    transform:translateY(-2rem);
+
+   }
+ 
+   .search img{
+  height:4%;
+  width: auto;
+  position: absolute;
+  top: 7%;
+  left:36%;
+
+}
+ 
+.search button {
+  margin-left: 35%;
+  width: 3%;
+  max-width: 3%;
+  padding: 12px 20px;
+  border: none;
+  margin-bottom: 4rem;
+  transform: rotateY(-50%);
+}
+
+.srch{
+   margin-top: -1.5%;
+}
+
+ul {
+  list-style: none;
+  display: flex; 
+  align-items: right;
+  height: 45%;
+}
+
+.user {
+   margin-left: 60%;
+   height: 5rem;
+}
+
+.cart {
+  margin-left: 55%;
+  height: 10%;
+}
+
+.home {
+  margin-left: 50%;
+}
+
+.phone {
+   margin-left:45%;
+}
+
+.info{
+  margin-left: 40%;
+}
