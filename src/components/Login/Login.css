@@ -1,0 +1,54 @@
+
+.user-input-box-login label{
+    width: 95%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+    text-align: left;
+    
+}
+
+.user-input-box-login input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 2px solid rgb(16, 2, 2);
+    padding: 0 10px;
+}
+
+.visibility-icon-l{
+    position: absolute;
+    left: 840px; /* Adjust as needed */
+    margin-top: 10px;
+  }
+
+  .signup-message-l {
+    font-size: 16px;
+    color: #333; /* Adjust color as needed */
+    margin-bottom: 10px;
+  }
+  .form-submit-btn-l {
+    text-align: center; /* Align button to the center */
+    margin-top: 20px; /* Adjust top margin as needed */
+  }
+  
+  .form-submit-btn-l button {
+    width: 150px; /* Set button width */
+    height: 40px; /* Set button height */
+    font-size: 16px; /* Set font size */
+    color: #e7e2d4; /* Text color */
+    background-color: #bd4141; /* Button background color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Add cursor pointer on hover */
+  }
+  
+  .form-submit-btn-l button:hover {
+    background-color: #cc0000; /* Change background color on hover */
+  }
+  .person {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+  }

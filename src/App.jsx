@@ -1,9 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import Addcustomer from "./components/Addcustomer/Addcustomer";
-
 import UserProfile from "./components/profile/UserProfile";
+import Addcustomer from './components/Addcustomer/Addcustomer';
+import Login from './components/Login/Login';
+import UserProfile from './components/profile/UserProfile';
 import EditProfile from "./components/Edit/EditProfile";
 import AddFood from "./components/Addfood/AddFood";
 import AllFoods from "./components/AllFoods/AllFoods";
@@ -40,6 +41,7 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs />} />{" "}
           {/* Display Home component by default */}
           <Route path="/register" element={<Addcustomer />} />
+          <Route path="/loginCus" element={<Login />} />
           <Route path="/getUser/:nic" element={<UserProfile />} />
           <Route path="/updateCus/:nic" element={<EditProfile />} />{" "}
           {/* Removed the extra space */}
